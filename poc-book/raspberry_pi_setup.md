@@ -115,8 +115,8 @@ cat ~/.ssh/id_rsa.pub
 mkdir Garage
 cd Garage
 
-git clone git@github.com:cirocavani/gentronics-blueprint-1.git
-git clone git@github.com:cirocavani/gentronics-candle.git
+git clone git@github.com:cirocavani/programmable-matter-blueprint-1.git
+git clone git@github.com:cirocavani/programmable-matter-candle.git
 git clone git@github.com:huggingface/candle.git
 ```
 

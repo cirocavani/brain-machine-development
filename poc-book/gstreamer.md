@@ -1,4 +1,4 @@
-# Robotics Research GStreamer
+# GStreamer Rust Project
 
 <https://gstreamer.freedesktop.org/>
 
@@ -12,7 +12,7 @@ Install using Packages.
 
 1.24.7 (August 21, 2024 at 8:25:15 AM GMT-3)
 
-https://gitlab.freedesktop.org/gstreamer/gstreamer/-/tags/1.24.7
+<https://gitlab.freedesktop.org/gstreamer/gstreamer/-/tags/1.24.7>
 
 ```bash
 cd ~/Downloads
@@ -177,8 +177,8 @@ Abort trap: 6
 `gst-launch-1.0 avfvideosrc ! osxvideosink`
 
 ```bash
-mkdir -p gentronics-gst
-cd gentronics-gst
+mkdir -p programmable-matter-gst
+cd programmable-matter-gst
 
 cargo init --lib
 echo '' > src/lib.rs
@@ -193,11 +193,11 @@ codegen-units = 1
 opt-level = 3' \
 >> Cargo.toml
 
-# lib external name: `gentronics::*`
+# lib external name: `programmable_matter::*`
 
 echo '
 [lib]
-name = "gentronics"' \
+name = "programmable_matter"' \
 >> Cargo.toml
 
 # Project deps:
@@ -214,7 +214,7 @@ export DYLD_FALLBACK_LIBRARY_PATH=${HOME}/Library/Frameworks/GStreamer.framework
 
 cargo check
 
-# Checking gentronics-gst v0.1.0 (/Users/ciro.cavani/Garage/gentronics-gst)
+# Checking programmable-matter-gst v0.1.0 (/Users/ciro.cavani/Garage/programmable-matter-gst)
 # Finished dev [unoptimized + debuginfo] target(s) in 11.88s
 
 
