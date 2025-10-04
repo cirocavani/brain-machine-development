@@ -1,17 +1,6 @@
-# Blueprint 1 - Embodied AI Project
+# Brain Machine Development
 
-Simple Embodied AI project using Raspberry Pi SBC, GStreamer AV and Candle ML.
+## Table Of Contents
 
-## Setup
-
-TBD
-
-## Development
-
-TBD
-
-## Documentation
-
-### POC Book
-
-[README](./poc-book/README.md)
+- [How to emulate Raspberry Pi in QEMU](./raspberry_pi_qemu.md)
+- [How to process Audio/Video using GStreamer](./gstreamer.md)
